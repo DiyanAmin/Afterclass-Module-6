@@ -1,5 +1,5 @@
 import pygame
-phast=int(input('Choose your speed: '))
+
 # Initialize Pygame
 pygame.init()
 
@@ -16,7 +16,7 @@ RED = (255, 0, 0)
 # Sprites
 player = pygame.Rect(100, 100, 50, 50)  
 enemy = pygame.Rect(300, 300, 50, 50)   
-speed = phast # --> To increase movement speed use this!
+speed = 6 # --> To increase movement speed use this!
 
 # Clock
 clock = pygame.time.Clock()
