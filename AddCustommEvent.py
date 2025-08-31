@@ -26,7 +26,7 @@ clock = pygame.time.Clock()
 # Create sprites
 sprite1 = ColorSprite(100, 100, (255, 0, 0))
 sprite2 = ColorSprite(200, 100, (0, 255, 0))
-all_sprites = pygame.sprite.Group(sprite1,sprite2)
+all_sprites = pygame.sprite.Group(sprite1,sprite2) # DOUBT : Unable to add sprites to group
 
 # Game loop
 running = True
